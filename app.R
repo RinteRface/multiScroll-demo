@@ -21,7 +21,21 @@ ui <- multiPage(
     align = "right",
     multiSection(
       menu = "multipage",
-      h1("multiScroll.js")
+      h1("multiScroll.js"),
+      
+      br(),
+      img(
+        src = "http://rinterface.com/inst/images/fullPage.svg",
+        height = "200px"
+      ),
+      br(),
+      p(
+        "Source code",
+        tags$a(
+          "here", 
+          href = "https://github.com/RinteRface/multiScroll-demo"
+        )
+      )
     ),
     multiSection(
       menu = "split",
